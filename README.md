@@ -12,6 +12,11 @@ enum AssetType {
     ERC1155
 }
 
+struct Taker { // Size: 0x40
+    uint256 tokenId; // 0x00
+    uint256 amount; // 0x20
+}
+
 struct FeeRate { // Size: 0x40
     address recipient; // 0x00
     uint16 rate; // 0x20

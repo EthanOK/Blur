@@ -94,7 +94,7 @@ let takeAskSingle_inputs = {
   order: order,
   exchange: exchange,
   takerFee: takerFee,
-  signature: tokenRecipient,
+  signature: signature,
   tokenRecipient: tokenRecipient,
 };
 

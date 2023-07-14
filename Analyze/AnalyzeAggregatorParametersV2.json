@@ -181,3 +181,42 @@ blue exchange 2.0:
     }
   ]
 }
+
+
+{
+  "blurV2OrderData": {
+      "data": {
+          "trader": "0x5586E4CEC93d631c36ce2F4646E43A83a3F99121",
+          "collection": "0x8C3c0274c33f263F0A55d129cFC8eaa3667A9E8b",
+          "listingsRoot": "0x70065e34f35554213ed3d50e586101d7450c4f2319c6fe74d0d59308cd3d9e23",
+          "numberOfListings": "1",
+          "expirationTime": "1689902102",
+          "assetType": 0,
+          "makerFee": {
+              "recipient": "0x0000000000000000000000000000000000000000",
+              "rate": 0
+          },
+          "salt": "290131900429798066653081922788280925930"
+      },
+      "exchange": {
+          "index": "0",
+          "proof": [],
+          "listing": {
+              "index": "0",
+              "tokenId": "63232229128498381",
+              "amount": "1",
+              "price": "200000000000000000"
+          },
+          "taker": {
+              "tokenId": "63232229128498381",
+              "amount": "1"
+          }
+      },
+      "takerFee": {
+          "recipient": "0x0000000000000000000000000000000000000000",
+          "rate": 0
+      },
+      "oracleSignature": "0x0d42f91df75c7a6becb3bc9fb81ea35ed461688edbc4be4a2b4c7af3467a4a17667b9fdc2cd14dc321fe5168f97ed02fa66105013f82352eb622bb39fd72e9551b010de7386af68e5d010513ff70a3aaed9afeb8661116e6ce"
+  },
+  "orderHash": "0xe61de2b4615b810d3cd93561d9e8a1de582b5b8ae2a6c0797f76d52fe5036f61"
+}
